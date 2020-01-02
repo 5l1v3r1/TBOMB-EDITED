@@ -231,7 +231,9 @@ country_codes = {
 
 def banner():
     cprint("""                                                                                                                                                               
-        ▄︻┻═┳一۝₦₳₦Đ¥۝
+       █▀▀▄ █▀▀█ █▀▀▄ █▀▀▄ █░░█ █▀▀▄ █▀▀█ █▀▀█ █░█
+       █░░█ █▄▄█ █░░█ █░░█ █▄▄█ █░░█ █▄▄█ █▄▄▀ █▀▄
+       ▀░░▀ ▀░░▀ ▀░░▀ ▀▀▀░ ▄▄▄█ ▀▀▀░ ▀░░▀ ▀░▀▀ ▀░▀
                                                """, 'green')
     print()
 
@@ -430,7 +432,7 @@ def start(target, counter, delay, ch, cc):
         print("             Failed Requests         : ", failed)
         print("==================================================================")
         print("              Use this for fun, not for revenge !!                ")
-        print("      This Bomber Was Edited by NANDY credits to owner@SpeedX !!    ")
+        print("      This Bomber Was Edited by NANDYDARK credits to owner@SpeedX !!    ")
         print("==================================================================")
 
         try:
@@ -457,7 +459,7 @@ def update():
     stuff_to_update = ['bomber.py', '.version']
     for fl in stuff_to_update:
         dat = urllib.request.urlopen(
-            "https://raw.githubusercontent.com/nandy121/TBOMB-EDITED/master/" + fl).read()
+            "https://raw.githubusercontent.com/nandydark/TBOMB-EDITED/master/" + fl).read()
         file = open(fl, 'wb')
         file.write(dat)
         file.close()
@@ -477,7 +479,7 @@ except Exception:
     exit()
 print('\tChecking For Updates...')
 ver = urllib.request.urlopen(
-    "https://raw.githubusercontent.com/nandy121/TBOMB-EDITED/master/.version").read().decode('utf-8')
+    "https://raw.githubusercontent.com/nandydark/TBOMB-EDITED/master/.version").read().decode('utf-8')
 verl = ''
 try:
     verl = open(".version", 'r').read()
@@ -491,7 +493,7 @@ print("Your Version is Up-To-Date")
 print('\n\n\t\t\tStarting TBomb...\n\n')
 try:
     noti = urllib.request.urlopen(
-        "https://raw.githubusercontent.com/nandy121/TBOMB-EDITED/master/.notify").read().decode('utf-8')
+        "https://raw.githubusercontent.com/nandydark/TBOMB-EDITED/master/.notify").read().decode('utf-8')
     noti = noti.upper().strip()
     if len(noti) > 10:
         print('\n\n\tNOTIFICATION: ' + noti + '\n\n')
@@ -598,7 +600,7 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("==================================================================")
     print("              Use this for fun, not for revenge !!                ")
-    print("     This Bomber Was Edited by NANDY credits to owner@SpeedX !!     ")
+    print("     This Bomber Was Edited by NANDYDARK credits to owner@SpeedX !!     ")
     print("==================================================================")
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
     os.system('rm *.xxx* > /dev/null 2>&1')
