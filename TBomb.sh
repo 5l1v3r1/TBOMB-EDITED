@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo -e "\e[4;31m nandy Productions !!! \e[0m"
+echo -e "\e[4;31m nandydark Productions !!! \e[0m"
 echo -e "\e[1;34m Presents \e[0m"
 echo -e "\e[1;32m TBOMB-EDITED \e[0m"
 echo "Press Enter To Continue"
@@ -14,7 +14,7 @@ echo .
 apt install figlet toilet python curl -y
 apt install python3-pip
 pip install -r requirements.txt
-echo This Script Was Edited By NANDY credits to owner@SpeedX
+echo This Script Was Edited By NANDYDARK credits to owner@SpeedX
 echo Requirements Installed....
 echo Press Enter To Continue...
 read upd
@@ -26,8 +26,8 @@ clear
 echo -e "\e[1;31m"
 figlet TBOMB-EDITED
 echo -e "\e[1;34m Created By \e[1;32m"
-toilet -f mono12 -F border NANDY
-echo -e "\e[4;34m This Bomber Was Edited By NANDY credits to owner@SpeedX\e[0m"
+toilet -f mono12 -F border NANDYDARK
+echo -e "\e[4;34m This Bomber Was Edited By NANDYDARK credits to owner@SpeedX\e[0m"
 echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
 echo " "
 echo "Press 1 To  Start SMS Bomber "
@@ -54,7 +54,7 @@ elif [ $ch -eq 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://github.com/nandy121/TBOMB-EDITED
+git clone https://github.com/nandydark/TBOMB-EDITED
 if [[ -s TBOMB-EDITED/TBomb.sh ]];then
 cd TBOMB-EDITED
 cp -r -f * .. > temp
@@ -75,7 +75,7 @@ clear
 echo -e "\e[1;33m"
 figlet TBOMB-EDITED
 echo -e "\e[1;34mCreated By \e[1;34m"
-toilet -f mono12 -F border NANDY
+toilet -f mono12 -F border NANDYDARK
 echo  " "
 echo -e "\e[1;32m                   Features\e[1;34m"
 echo "  [+] Unlimited And Super-Fast Bombing"
@@ -84,13 +84,6 @@ echo "  [+] Call Bombing "
 echo "  [+] Protection List"
 echo "  [+] Automated Future Updates"
 echo "  [+] Easy To Use And Embed in Code"
-echo -e "\e[1;32m                   Contributors\e[1;33m"
-echo -e "\e[1;33m      [*]  SpeedX  \e[1;31m"
-echo -e "\e[1;33m      [*]  The Black Hacker Roxstar   \e[1;31m"
-echo "         [-] Ping At: http://wa.me/917600140353"
-echo -e "\e[1;33m      [*]  Rieltar   \e[1;31m"
-echo "         [-] Ping At: https://t.me/Rieltar"
-echo -e "\e[1;33m      [*]  0n1cOn3 (Stefan)   \e[1;31m"
 echo ""
 echo ""
 echo -e "\e[1;31m This Script is Only For Educational Purposes or To Prank.\e[0m"
